@@ -52,7 +52,7 @@ footer {
   height:150vh;
   display:grid;
   grid-template-columns:1fr;
-  grid-template-rows:150px minmax(150px,auto) 100px;
+  grid-template-rows:160px minmax(150px,auto) 100px;
   grid-auto-rows:minmax(50px,auto);
   grid-gap:10px;
   grid-template-areas:
