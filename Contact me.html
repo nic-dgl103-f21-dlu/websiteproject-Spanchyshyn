@@ -7,32 +7,97 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <html>
-    <body>
-      <div class="container">
-        <header>
-          <img
-            src="images/placeholder-500x500.jpg"
-            height="300"
-            width="300"
-            alt="dormouse bookkeeping"
-          />Dormouse BookKeeping Services
-        </header>
-        <nav>
-          <ul>
-            <li><a href="dormousebookkepping.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="Contact me.html">Contact</a></li>
-          </ul>
-        </nav>
-        <main>
-          We offering bookeeping in both Sage50 Simply Accounting as well as
-          QuickBooks formats.
-        </main>
-        <aside>Aside</aside>
-        <footer>Footer</footer>
+  <body>
+    <header>
+      <img
+        src="Images/logo.png"
+        alt="company logo"
+        width="200"
+      />
+      
+    </header>
+
+    <nav>
+      <div class="wrapper">
+        <ul>
+          <li><a href="dormousebookkeeping.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Contact me.html">Contact</a></li>
+        </ul>
       </div>
-    </body>
-  </html>
+    </nav>
+
+    <main>
+      <article>
+        <p>
+          Please reach out to us through the following methods; Email:
+          dormouse.bookkeeping@gmail.com Phone: 250-830-8471
+
+          <div class="wrapper-form">
+            <h2>Contact Form</h2>
+            <form
+              method="email"
+              action="dormouse.bookkeeping@gmail.com"
+            >
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Ex: Mike"
+              />
+    
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Ex: Smith"
+              />
+    
+              <label for="email"
+                >Email <span class="label-required">* (required)</span></label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Ex: mike@yahoo.com"
+                required
+              />
+    
+             
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Please tell us a little about your enquiry"
+                style="height: 200px"
+              ></textarea>
+    
+              <div class="wrapper-button">
+                <input type="reset" value="Reset" />
+                <input type="submit" value="Submit" />
+              </div>
+            </form>
+        </p>
+      </article>
+
+      <aside>
+        <div>
+          <figure>
+            <img
+              src="images/stressed worker.jpg"
+              width="auto"
+              height="300"
+              alt=" Account slogans"
+            />
+          </figure>
+        </div>
+      </aside>
+    </main>
+    <footer><div class="wrapper">“This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
+    </div></footer>
+  </body>
 </html>
