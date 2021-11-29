@@ -135,7 +135,8 @@ STRUCTURE
   border-radius: 5px;
   background-color: #a4ac86;
   padding: 20px;
-  max-width: 800px;
+  max-width: 600px;
+  max-height:fit-content ;
   margin: 0 auto;
 }
 
@@ -213,9 +214,3 @@ fieldset {
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  nav ul,
-  main {
-    width: 1200px;
-    margin: 0 auto;
